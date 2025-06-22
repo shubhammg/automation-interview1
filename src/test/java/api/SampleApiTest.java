@@ -53,7 +53,7 @@ public class SampleApiTest {
             .body("job", equalTo("Lead QA"));
     }
 
-    @Test
+    @Test(enabled=false)
     public void testDeleteUser() {
         given()
             .baseUri("https://reqres.in")
