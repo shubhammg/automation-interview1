@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class SampleWebTest extends BaseTest {
     @Test
     public void validateTitle() {
-        driver.get("https://example.com");
-        Assert.assertEquals(driver.getTitle(), "Example Domain");
+        driver.get("https://google.com");
+        Assert.assertEquals(driver.getTitle(), "Google");
     }
 }
